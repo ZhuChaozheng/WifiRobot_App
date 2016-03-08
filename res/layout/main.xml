@@ -2,63 +2,66 @@
 <RelativeLayout android:orientation="vertical"
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent"
+    android:layout_margin="10dp"
+    android:background="#00000000"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.hanry.MjpegView
+    <org.hhu.surface.MjpegView
         android:id="@+id/mySurfaceView1"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_alignParentRight="true" />
     
-    <ImageButton android:id="@+id/btnLeft" 
-        android:src="@drawable/sym_left"
-        android:background="#00000000"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
+    <ImageButton
+        android:id="@+id/btnLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnBack"
+        android:layout_alignTop="@+id/btnStop"
         android:layout_gravity="left"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="40dp"
-        android:visibility="gone" />
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sym_left" />
     
     <ImageButton android:id="@+id/btnBack" 
 		android:src="@drawable/sym_backward"
         android:background="#00000000"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
 		android:layout_toRightOf="@id/btnLeft"
-        android:layout_alignParentBottom="true" 
-        android:visibility="gone"/>
+		android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true" />
 
 
    
     <ImageButton android:id="@+id/btnStop"
 		android:src="@drawable/sym_stop"
         android:background="#00000000"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignLeft="@id/btnBack"
-        android:layout_above="@id/btnBack"
-        android:visibility="gone"/>
+        android:scaleType="fitCenter"
+        android:layout_above="@id/btnBack"/>
     
     
     <ImageButton android:id="@+id/btnRight"
         android:src="@drawable/sym_right"
         android:background="#00000000"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignTop="@id/btnLeft"
-        android:layout_toRightOf="@id/btnStop" 
-        android:visibility="gone"/>
+        android:scaleType="fitCenter"
+        android:layout_toRightOf="@id/btnStop" />
   
     	
     <ImageButton android:id="@+id/btnForward"
 		android:src="@drawable/sym_forward"
         android:background="#00000000"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignLeft="@id/btnBack"
-        android:layout_above="@id/btnStop"
-        android:visibility="gone"/>
+        android:scaleType="fitCenter"
+        android:layout_above="@id/btnStop"/>
 
    <ImageButton android:id="@+id/ButtonCus1" 
 		android:src="@drawable/sym_setting"
@@ -66,14 +69,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
         android:layout_gravity="left" />
    
-   <ImageView android:id="@+id/btnIndicator" 
+   <ImageButton android:id="@+id/btnIndicator" 
 		android:src="@drawable/sym_indicator"
         android:background="#00000000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true" 
+        android:scaleType="fitCenter"
         android:layout_alignParentTop="true" />
 
    <ImageButton android:id="@+id/ButtonTakePic" 
@@ -82,56 +87,49 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
         android:layout_toLeftOf="@id/btnIndicator" />
       
    <TextView android:id="@+id/logTextView"
           android:layout_width="wrap_content"
-          android:layout_height="30dp"
-          android:layout_above="@+id/gear1"
-          android:layout_toLeftOf="@+id/btnLen"
+          android:layout_height="wrap_content"
+          android:layout_toLeftOf="@+id/btnAudio"
           android:layout_toRightOf="@+id/btnIndicator"
           android:text="..."
           android:textSize="10sp" />
 
    <ImageButton
-       android:id="@+id/btnLen"
+       android:id="@+id/btnAudio"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_alignParentRight="true"
        android:layout_alignParentTop="true"
        android:background="#00000000"
+       android:scaleType="fitCenter"
        android:src="@drawable/sym_light_off" />
 
-   <com.hanry.SeekBar
-       android:id="@+id/gear1"
-       android:layout_width="30dp"
-       android:layout_height="250dp"
-       android:layout_above="@+id/btnBack"
-       android:layout_alignLeft="@+id/btnLen"
-       android:layout_below="@+id/btnLen" />
-   <com.hanry.SeekBar
-       android:id="@+id/gear2"
-       android:layout_width="30dp"
-       android:layout_height="250dp"
-       android:layout_below="@+id/btnLen"
-       android:layout_marginLeft="10dp"
-       />
-   <com.hanry.SeekBar
-       android:id="@+id/gear3"
-       android:layout_width="30dp"
-       android:layout_height="250dp"
-       android:layout_marginRight="90dp"
-       android:layout_alignRight="@+id/logTextView"
-       android:layout_alignBottom="@+id/gear1"
-       android:layout_alignTop="@+id/gear1"
-       android:visibility="gone"/>
-	<com.hanry.SeekBar
-       android:id="@+id/gear4"
-       android:layout_width="30dp"
-       android:layout_height="250dp"
-       android:layout_marginRight="150dp"
-       android:layout_alignRight="@+id/logTextView"
-       android:layout_alignBottom="@+id/gear1"
-       android:layout_alignTop="@+id/gear1"
-       android:visibility="gone"/>
+
+   <org.hhu.surface.VerticalSeekBar
+        android:id="@+id/gear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="10" 
+        android:layout_margin="15dp"
+        android:layout_above="@+id/btnStop"
+        android:layout_below="@+id/ButtonCus1"
+        android:layout_toLeftOf="@+id/btnAudio"/>
+  <org.hhu.surface.VerticalSeekBar
+        android:id="@+id/gear2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="10" 
+        android:layout_below="@+id/ButtonCus1"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/btnStop"
+        android:layout_toLeftOf="@+id/gear1"
+        />
 </RelativeLayout>
