@@ -10,7 +10,8 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginLeft="8dp"
-        android:text="合肥"        android:textColor="#ff000000"
+        android:text="合肥"
+        android:textColor="#ff000000"
         android:textSize="18sp" />
 
     <TextView

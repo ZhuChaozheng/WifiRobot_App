@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dexter\\Desktop\\WifiRobot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "/home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dexter\\Desktop\\WifiRobot\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "/home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/res/values-v11/styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",
@@ -14,12 +14,29 @@
                         "endOffsets": "316"
                     },
                     "to": {
-                        "startLines": "2",
+                        "startLines": "12",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
+                        "startOffsets": "523",
+                        "endLines": "14",
                         "endColumns": "12",
-                        "endOffsets": "187"
+                        "endOffsets": "655"
+                    }
+                },
+                {
+                    "source": "/home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/res/values-v11/color.xml",
+                    "from": {
+                        "startLines": "2,6,11,7,8,4,10,5,3,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,247,487,294,342,153,438,201,105,389",
+                        "endColumns": "46,45,46,46,45,46,47,44,46,47",
+                        "endOffsets": "99,288,529,336,383,195,481,241,147,432"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,102,148,195,242,288,335,383,428,475",
+                        "endColumns": "46,45,46,46,45,46,47,44,46,47",
+                        "endOffsets": "97,143,190,237,283,330,378,423,470,518"
                     }
                 }
             ]

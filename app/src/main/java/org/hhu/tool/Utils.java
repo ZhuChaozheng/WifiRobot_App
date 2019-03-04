@@ -1,4 +1,6 @@
 package org.hhu.tool;
+import android.util.Log;
+
 import org.hhu.tool.GPSData;
 public class Utils {
 	/*
@@ -26,29 +28,40 @@ public class Utils {
     
     public GPSData protocol2value(byte[] array) {
     	GPSData gpsdata = new GPSData();
-    	gpsdata.longitude = (double) ((((array[0] & 0xff)) +
+    	gpsdata.setLongitude(
+    	        (double) ((((array[0] & 0xff)) +
 				((array[1] & 0xff) << 8) +
 				(((array[2] & 0xff) << 8) << 8) +
 				((((array[3] & 0xff) << 8) << 8) << 8))
-				/ Math.pow(10, 7));
-    	gpsdata.latitude = (double) ((((array[4] & 0xff)) +
+				/ Math.pow(10, 7))
+		);
+//        Log.i("GPSdata", Double.toString(gpsdata.longitude));
+    	gpsdata.setLatitude(
+    	        (double) ((((array[4] & 0xff)) +
 				((array[5] & 0xff) << 8) +
 				(((array[6] & 0xff) << 8) << 8) +
 				((((array[7] & 0xff) << 8) << 8) << 8))
-				/ Math.pow(10, 7));
-    	gpsdata.heading = (double) ((((array[8] & 0xff)) +
+				/ Math.pow(10, 7))
+        );
+    	gpsdata.setHeading((double) ((((array[8] & 0xff)) +
 				((array[9] & 0xff) << 8) +
 				(((array[10] & 0xff) << 8) << 8) +
 				((((array[11] & 0xff) << 8) << 8) << 8))
-				/ Math.pow(10, 5));
+				/ Math.pow(10, 5)));
 //		speed unit is km/h
-    	gpsdata.speed = (double) ((((array[12] & 0xff)) +
+    	gpsdata.setSpeed(
+    	        (double) ((((array[12] & 0xff)) +
 				((array[13] & 0xff) << 8) +
 				(((array[14] & 0xff) << 8) << 8) +
 				((((array[15] & 0xff) << 8) << 8) << 8))
-				/ (3.6 * Math.pow(10, 7)));
-    	gpsdata.online = array[16] & 0xff;
-    	gpsdata.visible = array[17] & 0xff;
+				/ (3.6 * Math.pow(10, 7)))
+        );
+    	gpsdata.setOnline(
+    	        array[16] & 0xff
+        );
+    	gpsdata.setVisible(
+    	        array[17] & 0xff
+        );
     	return gpsdata;
     }
 

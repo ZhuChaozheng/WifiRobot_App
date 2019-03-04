@@ -30,6 +30,10 @@ Eclipse projects. Here's how the projects were restructured:
 
 * AndroidManifest.xml => app\src\main\AndroidManifest.xml
 * assets\ => app\src\main\assets
+* libs\arm64-v8a\libBugly.so => app\src\main\jniLibs\arm64-v8a\libBugly.so
+* libs\arm64-v8a\libksyplayer.so => app\src\main\jniLibs\arm64-v8a\libksyplayer.so
+* libs\armeabi-v7a\libBugly.so => app\src\main\jniLibs\armeabi-v7a\libBugly.so
+* libs\armeabi-v7a\libksyplayer.so => app\src\main\jniLibs\armeabi-v7a\libksyplayer.so
 * libs\armeabi\libBaiduMapSDK_base_v4_1_1.so => app\src\main\jniLibs\armeabi\libBaiduMapSDK_base_v4_1_1.so
 * libs\armeabi\libBaiduMapSDK_cloud_v4_1_1.so => app\src\main\jniLibs\armeabi\libBaiduMapSDK_cloud_v4_1_1.so
 * libs\armeabi\libBaiduMapSDK_map_v4_1_1.so => app\src\main\jniLibs\armeabi\libBaiduMapSDK_map_v4_1_1.so
@@ -43,7 +47,11 @@ Eclipse projects. Here's how the projects were restructured:
 * libs\baidumapapi_radar_v4_1_1.jar => app\libs\baidumapapi_radar_v4_1_1.jar
 * libs\baidumapapi_search_v4_1_1.jar => app\libs\baidumapapi_search_v4_1_1.jar
 * libs\baidumapapi_util_v4_1_1.jar => app\libs\baidumapapi_util_v4_1_1.jar
+* libs\libksyplayer.jar => app\libs\libksyplayer.jar
+* libs\libksystat.jar => app\libs\libksystat.jar
 * libs\locSDK_6.13.jar => app\libs\locSDK_6.13.jar
+* libs\x86\libBugly.so => app\src\main\jniLibs\x86\libBugly.so
+* libs\x86\libksyplayer.so => app\src\main\jniLibs\x86\libksyplayer.so
 * res\ => app\src\main\res\
 * src\ => app\src\main\java\
 

@@ -33,7 +33,6 @@ public class SocketClient {
 	
 	public byte[] receiveMsg() {
 		try {
-			
 			InputStream in = client.getInputStream();
 			inLength = in.read(recData);
 			byte[] copyData = new byte[inLength];
