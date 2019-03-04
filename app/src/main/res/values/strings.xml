@@ -3,6 +3,7 @@
 
     <string name="app_name">WifiRobot</string>
     <string name="hello_world">Hello world!</string>
-   <string name="title_activity_wifi_car_settings">机器人设置</string>
+    <string name="title_activity_wifi_car_settings">机器人设置</string>
+    <string name="myCoolButton">Map</string>
 
 </resources>

@@ -9,14 +9,22 @@ public class Constant {
 	public static final String PREF_KEY_TEST_MODE_ENABLED = "pref_key_test_enabled";
 	public static final String PREF_KEY_ROUTER_URL_TEST = "pref_key_router_url_test";
 	public static final String PREF_KEY_CAMERA_URL_TEST = "pref_key_camera_url_test";
+
+    public static final String PREF_KEY_LEFT_MOTOR_SPEED = "pref_key_left_motor_speed";
+    public static final String PREF_KEY_RIGHT_MOTOR_SPEED = "pref_key_right_motor_speed";
 	
 	public static final String PREF_KEY_LEN_ON = "pref_key_len_on";
 	public static final String PREF_KEY_LEN_OFF = "pref_key_len_off";
+
+	public static final String PREF_KEY_MAP_MANAGEMENT = "pref_key_map_management";
 	
-	public static final String DEFAULT_VALUE_CAMERA_URL = "http://192.168.43.150:8080/?action=stream";
+	public static final String DEFAULT_VALUE_CAMERA_URL = "rtmp://live.hkstv.hk.lxdns.com/live/hks";
 	public static final String DEFAULT_VALUE_ROUTER_URL = "192.168.43.150:2001";
 	public static final String DEFAULT_VALUE_CAMERA_URL_TEST = "";
 	public static final String DEFAULT_VALUE_ROUTER_URL_TEST = "192.168.43.150:2001";
+
+    public static final String DEFAULT_PREF_KEY_LEFT_MOTOR_SPEED = "50";
+    public static final String DEFAULT_PREF_KEY_RIGHT_MOTOR_SPEED = "50";
 	
 	public static final String DEFAULT_VALUE_LEN_ON = "FF040100FF";
 	public static final String DEFAULT_VALUE_LEN_OFF = "FF040000FF";

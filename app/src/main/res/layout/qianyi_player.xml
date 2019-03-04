@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<org.hhu.surface.VideoSurfaceView-->
+    <!--android:id="@+id/mySurfaceView1"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--/>-->
+
+    <org.hhu.surface.MjpegView
+        android:id="@+id/player_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="0dp"
+        />
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/id_bmapView"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <!--<com.baidu.mapapi.map.MapView-->
+        <!--android:id="@+id/id_bmapView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:clickable="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_toRightOf="@+id/reset"-->
+        <!--android:layout_alignBottom="@+id/ButtonCus"-->
+        <!--android:layout_toLeftOf="@+id/log_horizontal"-->
+        <!--android:layout_margin="5dp"-->
+        <!--/>-->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_marginTop="0dp"
+        android:background="#60000000"
+        app:layout_constraintBottom_toTopOf="@id/id_bmapView"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:src="@drawable/icon"
+        app:layout_constraintBottom_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/title" />
+
+    <ImageView
+        android:id="@+id/ButtonCus"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/my_set"
+        app:layout_constraintStart_toEndOf="@+id/logo"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <ImageView
+        android:id="@+id/btnScreenRecord"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/my_camera"
+        app:layout_constraintStart_toEndOf="@+id/ButtonCus"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <ImageView
+        android:id="@+id/btnScreenShot"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/my_screen_shot"
+        app:layout_constraintStart_toEndOf="@+id/btnScreenRecord"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <ImageView
+        android:id="@+id/btnAudio"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/my_record"
+        app:layout_constraintStart_toEndOf="@+id/btnScreenShot"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <ImageView
+        android:id="@+id/reset"
+        android:layout_width="22dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/my_reset"
+        app:layout_constraintStart_toEndOf="@+id/btnAudio"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <ImageView
+        android:id="@+id/buttonLight"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/my_light_off"
+        app:layout_constraintStart_toEndOf="@+id/reset"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <View
+        android:id="@+id/depart"
+        android:layout_width="1dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="8dp"
+        android:background="#d7d7d7"
+        app:layout_constraintBottom_toBottomOf="@id/title"
+        app:layout_constraintStart_toEndOf="@+id/buttonLight"
+        app:layout_constraintTop_toTopOf="@id/title"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/viewSignal"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/my_signal_off"
+        app:layout_constraintStart_toEndOf="@+id/depart"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <ImageView
+        android:id="@+id/viewElectricity"
+        android:layout_width="22dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/my_electric_two"
+        app:layout_constraintStart_toEndOf="@+id/viewSignal"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/viewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="Auto"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/viewElectricity"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <ImageView
+        android:id="@+id/viewInfo"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/my_horn"
+        app:layout_constraintStart_toEndOf="@+id/viewStatus"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+
+    <TextView
+        android:id="@+id/logTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:text="..."
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/viewInfo"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/log_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="224dp"
+        android:text="speed→: 50cm/s"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="38dp"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/log_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="230dp"
+        android:text="horizontal angle: 90°"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/player_surface"
+        app:layout_constraintEnd_toStartOf="@+id/log_left"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/log_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="8dp"
+        android:text="vertical  angle:  40°"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/log_right"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@id/log_horizontal" />
+
+    <TextView
+        android:id="@+id/log_left"
+        android:layout_width="wrap_content"
+        android:layout_height="11dp"
+        android:layout_marginBottom="63dp"
+        android:layout_marginEnd="640dp"
+        android:layout_marginLeft="605dp"
+        android:layout_marginRight="640dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="240dp"
+        android:text="speed←: 50cm/s"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/player_surface"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <org.hhu.surface.RockView
+        android:id="@+id/view2"
+        android:layout_width="190dp"
+        android:layout_height="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <org.hhu.surface.CompassView
+        android:id="@+id/compassView"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewInfo" />
+
+
+</android.support.constraint.ConstraintLayout>

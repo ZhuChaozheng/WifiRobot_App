@@ -1,15 +1,5 @@
 package org.hhu.surface;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import org.hhu.streaming.MjpegInputStream;
-import org.hhu.tool.Constant;
-
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -26,6 +16,14 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+
+import org.hhu.tools.Constant;
+import org.hhu.tools.MjpegInputStream;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 
 public class MjpegView extends SurfaceView implements SurfaceHolder.Callback {
@@ -221,9 +219,9 @@ public class MjpegView extends SurfaceView implements SurfaceHolder.Callback {
         if (mIn != null || mInUrl != null) {
             mRun = true;
             try {
-            	thread.start();
+                thread.start();
             } catch (IllegalThreadStateException e) {
-            	Log.e("MjpegView", "ERROR! " + e.getMessage());
+                Log.e("MjpegView", "ERROR! " + e.getMessage());
             }
         }
     }
@@ -317,10 +315,10 @@ public class MjpegView extends SurfaceView implements SurfaceHolder.Callback {
     
     private String generateFileName() {
     	File sdcard;
-    	boolean sdCardExist = Environment.getExternalStorageState().equals(android.os.Environment.MEDIA_MOUNTED);
+    	boolean sdCardExist = Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED);
     	if (sdCardExist) 
     	{ 
-    		sdcard = Environment.getExternalStorageDirectory();//��ȡ��Ŀ¼ 
+    		sdcard = Environment.getExternalStorageDirectory();//获取跟目录 
     	} else {
     		return null;
     	}
@@ -328,7 +326,7 @@ public class MjpegView extends SurfaceView implements SurfaceHolder.Callback {
     	String save2dir = sdcard.toString() + "/" + SAVE_TO_DIR;
     	
     	File fSave2dir  = new File(save2dir);
-    	//�ж��ļ����Ƿ����,�������򴴽��ļ���
+    	//判断文件夹是否存在,如果不存在则创建文件夹
     	if (!fSave2dir.exists()) {
     		fSave2dir.mkdir();
     	}

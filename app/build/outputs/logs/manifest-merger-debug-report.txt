@@ -1,151 +1,262 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:2:1-77:12
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:2:1-67:12
+MERGED from [com.beardedhen:androidbootstrap:2.3.2] /home/dexter/.gradle/caches/transforms-1/files-1.1/androidbootstrap-2.3.2.aar/b9fa07ca213197f5b1a7bdb5efcf50ad/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/a60c81fc60ba7b842d053f57547fd3fd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dexter/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/62fac6bf634e0d649637342dd8b243b6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e5dd4187f139ad76ef432b528639d340/AndroidManifest.xml:17:1-22:12
+MERGED from [com.zhy:okhttputils:2.6.2] /home/dexter/.gradle/caches/transforms-1/files-1.1/okhttputils-2.6.2.aar/7476bcf84d409fcc3b56d9a3c49fe2fd/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/670dda58804e9b6c3b340f07f00b4d85/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ad2cd54afea7e86e07d0a9c7237d518c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4f3b95ba9a1b17a53899d40425c06418/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/8b43916eb5c851e670792963489bb28c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e494e887c72ad77260ee7d7e16306b61/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d1ac583e7a46e9150f862c13a84012e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/745eee0805c2bb7ad36f0fd90128cc29/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9b37b3228156f7884236e79e3f03307c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/c67c37ee6954b7f3d02570f7d1275d8d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/25edf0a388058bb57575d098eef4739f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e0e3d0bb0d6b75ae4971ce406e4f8740/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/586ec44bbb0ab51935033ee69213effe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/18109ddd965d5e44252117e37077170c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/31ad41a7651540c77234d94118712637/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c17e4bb23d732d914f49fa4e76a4a8ef/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2f1dbb7c8c2769ee7e86c5f7c0c9c03c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/dfaba47f6f435dcd34d7957a3334d05b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c3c2fe37ba2c0f8a8ded470a0e876721/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f94fd0c37e486cf5c70cad7a1c3a25b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/dfec7256b062d325bdae55d89a46d1af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2c57a6c71815c3ef98dbf6f2512452d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/3bae17654ab799378f4639c1899d9c5d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/4daa7b97787e1b24dc71b13175f4e3cc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a883f0589cba396bca2fa013b10d9286/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e9ce469de14508447066bccf02f64d59/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/571d1b5f99eaf69319a9a410b388be48/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:2:1-67:12
 	package
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:3:5-30
-		INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml
-uses-sdk
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:7:5-9:41
-	android:targetSdkVersion
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:11:4-12:23
-	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:11:21-77
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:13:5-14:23
-	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:13:22-76
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:15:5-16:23
-	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:15:22-73
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:17:5-18:23
-	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:17:22-76
-uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:19:5-20:23
-	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:19:22-73
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:21:5-22:23
-	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:21:22-72
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:23:5-24:23
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:23:22-78
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:16:22-72
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:25:5-67
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:18:5-67
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:25:22-64
-uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:26:5-27:23
-	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:26:22-81
-uses-permission#android.permission.READ_LOGS
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:28:5-29:23
-	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:28:22-65
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:18:22-64
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:30:5-66
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:19:5-66
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:30:22-63
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:19:22-63
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:31:5-68
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:20:5-68
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:31:22-65
-uses-permission#android.permission.WRITE_SETTINGS
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:32:5-73
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:20:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:21:5-80
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:32:22-70
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:21:22-77
 application
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:34:5-75:19
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:23:5-65:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dexter/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/62fac6bf634e0d649637342dd8b243b6/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dexter/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/62fac6bf634e0d649637342dd8b243b6/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c17e4bb23d732d914f49fa4e76a4a8ef/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c17e4bb23d732d914f49fa4e76a4a8ef/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2f1dbb7c8c2769ee7e86c5f7c0c9c03c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2f1dbb7c8c2769ee7e86c5f7c0c9c03c/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c17e4bb23d732d914f49fa4e76a4a8ef/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:37:9-41
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:27:9-41
 	android:icon
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:36:9-38
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:26:9-38
 	android:allowBackup
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:35:9-35
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:25:9-35
 	android:theme
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:38:9-40
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:28:9-40
+	android:name
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:24:9-57
 meta-data#com.baidu.lbsapi.API_KEY
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:39:9-41:64
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:29:9-31:64
 	android:value
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:41:13-61
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:31:13-61
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:40:13-52
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:30:13-52
 service#com.baidu.location.f
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:43:9-51:19
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:33:9-40:19
 	android:process
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:46:13-38
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:36:13-38
 	android:enabled
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:45:13-35
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:35:13-35
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:44:13-48
-intent-filter#com.baidu.location.service_v2.2
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:47:13-50:29
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:34:13-48
+intent-filter#action:name:com.baidu.location.service_v2.2
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:37:13-39:29
 action#com.baidu.location.service_v2.2
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:48:17-49:26
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:38:17-74
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:48:25-71
-activity#org.hhu.surface.Main
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:53:9-62:20
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:38:25-71
+activity#org.hhu.surface.VideoPlayerActivity
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:42:9-52:20
 	android:screenOrientation
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:56:13-56
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:45:13-56
 	android:label
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:55:13-45
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:44:13-45
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:54:13-33
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:57:13-61:29
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:43:13-48
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:46:13-51:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:58:17-69
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:47:17-69
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:58:25-66
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:47:25-66
+action#android.intent.action.VIEW
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:48:17-69
+	android:name
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:60:17-77
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:60:27-74
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:50:27-74
 activity#org.hhu.surface.OfflineMapActivity
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:63:9-67:20
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:53:9-55:50
 	android:screenOrientation
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:65:13-56
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:55:13-47
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:64:13-47
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:54:13-47
 activity#org.hhu.surface.Settings
-ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:69:9-74:20
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:56:9-59:50
 	android:screenOrientation
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:72:13-56
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:59:13-47
 	android:label
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:71:13-69
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:58:13-69
 	android:name
-		ADDED from C:\Users\Dexter\Desktop\WifiRobot\app\src\main\AndroidManifest.xml:70:13-37
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:57:13-37
+service#org.hhu.surface.RecordService
+ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:61:9-64:39
+	android:enabled
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:63:13-35
+	android:exported
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:64:13-36
+	android:name
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml:62:13-42
+uses-sdk
+INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
+INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
+MERGED from [com.beardedhen:androidbootstrap:2.3.2] /home/dexter/.gradle/caches/transforms-1/files-1.1/androidbootstrap-2.3.2.aar/b9fa07ca213197f5b1a7bdb5efcf50ad/AndroidManifest.xml:8:5-10:41
+MERGED from [com.beardedhen:androidbootstrap:2.3.2] /home/dexter/.gradle/caches/transforms-1/files-1.1/androidbootstrap-2.3.2.aar/b9fa07ca213197f5b1a7bdb5efcf50ad/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/a60c81fc60ba7b842d053f57547fd3fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/a60c81fc60ba7b842d053f57547fd3fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dexter/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/62fac6bf634e0d649637342dd8b243b6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dexter/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/62fac6bf634e0d649637342dd8b243b6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e5dd4187f139ad76ef432b528639d340/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e5dd4187f139ad76ef432b528639d340/AndroidManifest.xml:20:5-44
+MERGED from [com.zhy:okhttputils:2.6.2] /home/dexter/.gradle/caches/transforms-1/files-1.1/okhttputils-2.6.2.aar/7476bcf84d409fcc3b56d9a3c49fe2fd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:okhttputils:2.6.2] /home/dexter/.gradle/caches/transforms-1/files-1.1/okhttputils-2.6.2.aar/7476bcf84d409fcc3b56d9a3c49fe2fd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/670dda58804e9b6c3b340f07f00b4d85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/670dda58804e9b6c3b340f07f00b4d85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ad2cd54afea7e86e07d0a9c7237d518c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ad2cd54afea7e86e07d0a9c7237d518c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4f3b95ba9a1b17a53899d40425c06418/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4f3b95ba9a1b17a53899d40425c06418/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/8b43916eb5c851e670792963489bb28c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/8b43916eb5c851e670792963489bb28c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e494e887c72ad77260ee7d7e16306b61/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e494e887c72ad77260ee7d7e16306b61/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d1ac583e7a46e9150f862c13a84012e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d1ac583e7a46e9150f862c13a84012e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/745eee0805c2bb7ad36f0fd90128cc29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/745eee0805c2bb7ad36f0fd90128cc29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9b37b3228156f7884236e79e3f03307c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9b37b3228156f7884236e79e3f03307c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/c67c37ee6954b7f3d02570f7d1275d8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/c67c37ee6954b7f3d02570f7d1275d8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/25edf0a388058bb57575d098eef4739f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/25edf0a388058bb57575d098eef4739f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e0e3d0bb0d6b75ae4971ce406e4f8740/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e0e3d0bb0d6b75ae4971ce406e4f8740/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/586ec44bbb0ab51935033ee69213effe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/586ec44bbb0ab51935033ee69213effe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/18109ddd965d5e44252117e37077170c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/18109ddd965d5e44252117e37077170c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/31ad41a7651540c77234d94118712637/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/31ad41a7651540c77234d94118712637/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c17e4bb23d732d914f49fa4e76a4a8ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c17e4bb23d732d914f49fa4e76a4a8ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2f1dbb7c8c2769ee7e86c5f7c0c9c03c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2f1dbb7c8c2769ee7e86c5f7c0c9c03c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/dfaba47f6f435dcd34d7957a3334d05b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/dfaba47f6f435dcd34d7957a3334d05b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c3c2fe37ba2c0f8a8ded470a0e876721/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c3c2fe37ba2c0f8a8ded470a0e876721/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f94fd0c37e486cf5c70cad7a1c3a25b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f94fd0c37e486cf5c70cad7a1c3a25b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/dfec7256b062d325bdae55d89a46d1af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/dfec7256b062d325bdae55d89a46d1af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2c57a6c71815c3ef98dbf6f2512452d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2c57a6c71815c3ef98dbf6f2512452d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/3bae17654ab799378f4639c1899d9c5d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/dexter/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/3bae17654ab799378f4639c1899d9c5d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/4daa7b97787e1b24dc71b13175f4e3cc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/4daa7b97787e1b24dc71b13175f4e3cc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a883f0589cba396bca2fa013b10d9286/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a883f0589cba396bca2fa013b10d9286/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e9ce469de14508447066bccf02f64d59/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e9ce469de14508447066bccf02f64d59/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/571d1b5f99eaf69319a9a410b388be48/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/dexter/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/571d1b5f99eaf69319a9a410b388be48/AndroidManifest.xml:20:5-44
+INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
+INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
+		ADDED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dexter/DATA/studioWorkspace/WifiRobot(Newest Test)/WifiRobot(Newest Test)/app/src/main/AndroidManifest.xml

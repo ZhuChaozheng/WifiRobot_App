@@ -12,7 +12,7 @@
    />
    
     
-   <ImageButton android:id="@+id/btnIndicator1" 
+   <ImageButton android:id="@+id/btnScreenShot"
 		android:src="@drawable/sym_indicator"
         android:background="#00000000"
         android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_toLeftOf="@+id/btnAudio"
-          android:layout_toRightOf="@+id/btnIndicator1"
+          android:layout_toRightOf="@+id/btnScreenShot"
           android:layout_marginTop="8dp"
           android:text="..."
           android:textSize="10sp" />
@@ -48,10 +48,10 @@
       android:layout_marginTop="10dp"
       android:layout_marginLeft="10dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/sym_reset" />
+      android:src="@drawable/my_reset" />
   
   <ImageButton
-      android:id="@+id/ButtonTakePic"
+      android:id="@+id/btnScreenRecord"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_below="@+id/reset"
@@ -65,8 +65,8 @@
       android:id="@+id/ButtonCus"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_below="@+id/ButtonTakePic"
-      android:layout_alignLeft="@+id/ButtonTakePic"
+      android:layout_below="@+id/btnScreenRecord"
+      android:layout_alignLeft="@+id/btnScreenRecord"
       android:background="#00000000"
       android:scaleType="fitCenter"
       android:layout_marginTop="10dp"
@@ -109,7 +109,7 @@
 	    android:layout_alignBaseline="@+id/logTextView"
 	    android:layout_alignBottom="@+id/logTextView"
 	    android:layout_marginRight="17dp"
-	    android:layout_toLeftOf="@+id/btnIndicator1"
+	    android:layout_toLeftOf="@+id/btnScreenShot"
 	    android:text="vertical angle: 40°"
 	    android:textSize="10sp" />
 

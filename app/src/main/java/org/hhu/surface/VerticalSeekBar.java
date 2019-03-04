@@ -32,9 +32,9 @@ public class VerticalSeekBar extends SeekBar {
     }
 
     protected void onDraw(Canvas c) {
-
+    	//将SeekBar转转90度
         c.rotate(-90);
-        //
+        //将旋转后的视图移动回来
         c.translate(-getHeight(),0);
         Log.i("getHeight()",getHeight()+"");
         super.onDraw(c);
@@ -51,12 +51,12 @@ public class VerticalSeekBar extends SeekBar {
             case MotionEvent.ACTION_MOVE:
             case MotionEvent.ACTION_UP:
             	int i=0;
-            	//
+            	//获取滑动的距离
             	i=getMax() - (int) (getMax() * event.getY() / getHeight());
-            	//
+            	//设置进度
                 setProgress(i);
                 Log.i("Progress",getProgress()+"");
-                //
+                //每次拖动SeekBar都会调用
                 onSizeChanged(getWidth(), getHeight(), 0, 0);
                 Log.i("getWidth()",getWidth()+"");
                 Log.i("getHeight()",getHeight()+"");
